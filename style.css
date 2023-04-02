@@ -15,6 +15,7 @@ body{
     flex-direction: column;
     width: 20vh;
     justify-content: center;
+    margin-left: 2rem;
 }
 .feature{
     display: flex;
@@ -27,8 +28,36 @@ img{
     width: 200px;
     height: 200px;
     margin: auto;
+
 }
 
 h3{
     font-weight: lighter;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+a:active{
+    color: red;
+}
+
+.film-feature{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    margin:auto;
+    height: -webkit-fill-available;
+}
+
+.essex, .reason{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
 }
