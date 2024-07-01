@@ -1,9 +1,0 @@
-.master{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    background-image:  linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0, 0) 65%),url(/images/master-crop.gif);
-    background-size: cover; /* or "contain" depending on what you want */
-    background-position: center center;
-    background-repeat: no-repeat;
-}
