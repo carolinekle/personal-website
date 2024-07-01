@@ -6,11 +6,10 @@ body{
     margin:0px;
     font-family: Helvetica, sans-serif;
     background-color: whitesmoke;
-    overflow-y:auto; /*removes scroll bar*/
+    overflow-y:auto; 
     overflow-x:hidden;
 
 }
-
 
 #content{
     display: flex;
@@ -113,14 +112,13 @@ a:focus{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     align-items: start;
     margin: auto;
     height: 85vh;
     background-color: whitesmoke;
     width: 70vw;
 }
-/*F5F3E2*/
+
 
 img, .overlay{
     display: flex;
@@ -180,13 +178,11 @@ p{
     color: black;
 }
 
-
 .tile{
     display: flex;
     object-fit: cover;
     object-position:top;
 }
-
 
 .nav-active {
     background-color:#6c8440;
